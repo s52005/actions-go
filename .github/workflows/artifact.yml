@@ -68,4 +68,4 @@ jobs:
     - name: Test ${{ env.FILE_NAME }}
       run: |
         ls
-        windows/${{ env.FILE_NAME }}.exe
+        ${{ env.FILE_NAME }}.exe
